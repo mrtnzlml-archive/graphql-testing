@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@kiwicom/graphql-logz": "^0.2.0",
+    "@kiwicom/graphql-resolve-wrapper": "^0.1.0",
+    "apollo-server": "^2.1.0",
+    "graphql": "^14.0.2"
+  }
+}
