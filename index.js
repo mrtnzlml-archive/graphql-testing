@@ -1,3 +1,5 @@
+// @flow
+
 const { ApolloServer } = require('apollo-server');
 const { GraphQLSchema, GraphQLObjectType, GraphQLString } = require('graphql');
 const Logger = require('@kiwicom/graphql-logz').default;

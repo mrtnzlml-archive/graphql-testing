@@ -4,5 +4,8 @@
     "@kiwicom/graphql-resolve-wrapper": "^0.1.0",
     "apollo-server": "^2.1.0",
     "graphql": "^14.0.2"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.87.0"
   }
 }
