@@ -43,10 +43,10 @@ const server = new ApolloServer({
       startAt,
     });
 
-    return responseJSON
+    return responseJSON;
   },
 });
 
 server.listen().then(({ url }) => {
-  console.log(`🚀  Server ready at ${url}`);
+  console.log(`🚀  Server ready at ${url}`); // eslint-disable-line no-console
 });

@@ -6,3 +6,7 @@
 ```
 yarn flow
 ```
+
+```
+yarn eslint .
+```
