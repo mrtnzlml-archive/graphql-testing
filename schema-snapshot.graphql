@@ -1,0 +1,13 @@
+# @generated SignedSource<<8f21d2be1e2c9b7c8b7527a4aa5d3916>>
+
+# <BREAKING-CHANGES-LOG>
+#  FIELD_REMOVED: RootQuery.testBreakingChange was removed.
+# </BREAKING-CHANGES-LOG>
+
+schema {
+  query: RootQuery
+}
+
+type RootQuery {
+  test: String
+}

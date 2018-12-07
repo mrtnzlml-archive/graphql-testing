@@ -1,12 +1,7 @@
-```
-🤓 graphql-testing node index.js
-🚀  Server ready at http://localhost:4000/
-```
+Things to improve:
+
+- sometimes it's necessary to do `require().default` (not nice)
 
 ```
-yarn flow
-```
-
-```
-yarn eslint . --report-unused-disable-directives
+yarn start
 ```

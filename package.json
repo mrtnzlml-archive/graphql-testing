@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@kiwicom/graphql-bc-checker": "0.4.0",
     "@kiwicom/graphql-logz": "0.3.0",
     "@kiwicom/graphql-resolve-wrapper": "0.2.0",
     "apollo-server": "^2.1.0",
@@ -8,6 +9,14 @@
   "devDependencies": {
     "@kiwicom/eslint-config": "0.3.0",
     "babel-eslint": "^10.0.1",
-    "flow-bin": "^0.87.0"
+    "flow-bin": "^0.87.0",
+    "graphiql": "^0.12.0"
+  },
+  "scripts": {
+    "flow": "flow",
+    "lint": "eslint . --report-unused-disable-directives",
+    "start": "node index.js",
+    "test-bc": "node test-bc.js",
+    "test-ci": "yarn run flow && yarn run lint && yarn run test-bc"
   }
 }
