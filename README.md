@@ -8,5 +8,5 @@ yarn flow
 ```
 
 ```
-yarn eslint .
+yarn eslint . --report-unused-disable-directives
 ```

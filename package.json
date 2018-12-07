@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "@kiwicom/graphql-logz": "^0.2.0",
-    "@kiwicom/graphql-resolve-wrapper": "^0.1.0",
+    "@kiwicom/graphql-logz": "0.3.0",
+    "@kiwicom/graphql-resolve-wrapper": "0.2.0",
     "apollo-server": "^2.1.0",
     "graphql": "^14.0.2"
   },
   "devDependencies": {
-    "@kiwicom/eslint-config": "^0.3.0",
+    "@kiwicom/eslint-config": "0.3.0",
     "babel-eslint": "^10.0.1",
     "flow-bin": "^0.87.0"
   }
