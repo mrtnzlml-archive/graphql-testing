@@ -1,27 +1,16 @@
 // @flow
 
 const { ApolloServer } = require('apollo-server');
-const { GraphQLSchema, GraphQLObjectType, GraphQLString } = require('graphql');
 const Logger = require('@kiwicom/graphql-logz').default;
 const { wrapResolvers } = require('@kiwicom/graphql-resolve-wrapper');
+
+const schema = require('./Schema');
 
 const startAt = process.hrtime.bigint();
 
 const logger = new Logger({
   origin: 'graphql-testing.mrtnzlml',
   logzioToken: 'mocked',
-});
-
-const schema = new GraphQLSchema({
-  query: new GraphQLObjectType({
-    name: 'RootQuery',
-    fields: {
-      test: {
-        type: GraphQLString,
-        resolve: () => 'this response is very OK',
-      },
-    },
-  }),
 });
 
 wrapResolvers(schema, resolveFn => async (...args) => {
